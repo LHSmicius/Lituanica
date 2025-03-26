@@ -1,0 +1,17 @@
+[package]
+name = "Lituanica"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+#chrono = "0.4"
+
+[dependencies.gtk]
+package = "gtk4"
+version = "0.9.6"
+
+[dependencies.image]
+version = "0.25"
+features = ["gif"]
+default-features = false
+optional = true
